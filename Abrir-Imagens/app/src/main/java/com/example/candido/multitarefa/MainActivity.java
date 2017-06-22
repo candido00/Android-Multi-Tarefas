@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void baixarImagens(){
-        progressDialog = ProgressDialog.show(MainActivity.this,"Unibratec","Baixando imagem...");
+        progressDialog = ProgressDialog.show(MainActivity.this,"Aguarde","Baixando imagem...");
 
         //criando a nova thread
         new Thread(new Runnable() {
